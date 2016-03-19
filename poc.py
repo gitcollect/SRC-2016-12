@@ -12,7 +12,7 @@ saturn:atutor mr_me$
 import hashlib, string, itertools, re, requests, sys
 
 if len(sys.argv) < 2:
-    print "(!) Usage: %s <target ip>"
+    print "(!) Usage: %s <target ip>" % sys.argv[0]
     sys.exit(-1)
 
 t = sys.argv[1]
